@@ -8,7 +8,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   flex-direction: column;
   color: #f4f4f4;
-  gap: 50px;
+  gap: 20px;
 }
 
 h1 {
@@ -19,15 +19,19 @@ h1 {
   display: flex;
   flex-direction: column;
   background-color: #333;
-  padding: 50px 10px 20px 10px;
+  padding: 40px 10px 20px 10px;
   border-radius: 15px;
+  box-shadow: 1px 1px 30px black;
 }
 
 #calculator #display {
-  margin: 0 0 30px 0;
-  font-size: 2rem;
+  margin: 0 0 25px 0;
+  font-size: 1.8rem;
   height: 50px;
   border-radius: 15px;
+  color: #222;
+  box-shadow: 0px 0px 30px #000;
+  border: none;
 }
 
 #calculator #keys {
@@ -40,22 +44,38 @@ h1 {
   margin: 5px;
   font-size: 1.5rem;
   border: none;
-  border-radius: 50px;
+  border-radius: 20px;
   color: #222;
+  background-color: lightgrey;
+  transition: 0.1s;
 }
 
 #calculator #keys button:hover {
-  opacity: 0.5;
+  cursor: pointer;
+  transition: 0.1s;
+  background-color: #f4f4f4;
 }
 
 #calculator #keys .operation {
-  background-color: grey;
+  background-color: #f08080;
+}
+
+#calculator #keys .operation:hover {
+  background-color: #ff9999;
 }
 
 #calculator #keys .clear {
-  background-color: tomato;
+  background-color: lightsalmon;
+}
+
+#calculator #keys .clear:hover {
+  background-color: #f7b398;
 }
 
 #calculator #keys .equal {
   background-color: lightgreen;
+}
+
+#calculator #keys .equal:hover {
+  background-color: #baf9ba;
 }
