@@ -10,24 +10,24 @@
     <h1>Calculator</h1>
 
     <main id="calculator">
-      <div id="display"></div>
+      <input id="display" readonly></input>
       <div id="keys">
-        <div class="key">7</div>
-        <div class="key">8</div>
-        <div class="key">9</div>
-        <div class="key">+</div>
-        <div class="key">4</div>
-        <div class="key">5</div>
-        <div class="key">6</div>
-        <div class="key">-</div>
-        <div class="key">1</div>
-        <div class="key">2</div>
-        <div class="key">3</div>
-        <div class="key">x</div>
-        <div class="key">C</div>
-        <div class="key">0</div>
-        <div class="key">=</div>
-        <div class="key">/</div>
+        <button onclick="addDisplay('7')">7</button>
+        <button onclick="addDisplay('8')">8</button>
+        <button onclick="addDisplay('9')">9</button>
+        <button onclick="addDisplay('+')" class="operation">+</button>
+        <button onclick="addDisplay('4')">4</button>
+        <button onclick="addDisplay('5')">5</button>
+        <button onclick="addDisplay('6')">6</button>
+        <button onclick="addDisplay('-')" class="operation">-</button>
+        <button onclick="addDisplay('1')">1</button>
+        <button onclick="addDisplay('2')">2</button>
+        <button onclick="addDisplay('3')">3</button>
+        <button onclick="addDisplay('x')" class="operation">x</button>
+        <button onclick="clear()" class="clear">C</button>
+        <button onclick="addDisplay('0')">0</button>
+        <button onclick="calculate()" class="equal">=</button>
+        <button onclick="addDisplay('/')" class="operation">/</button>
       </div>
     </main>
 
