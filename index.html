@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calculator</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <h1>Calculator</h1>
 
-    <main id="calculator">
-      <input id="display" readonly></input>
-      <div id="keys">
-        <button onclick="addDisplay('7')">7</button>
-        <button onclick="addDisplay('8')">8</button>
-        <button onclick="addDisplay('9')">9</button>
-        <button onclick="addDisplay('+')" class="operation">+</button>
-        <button onclick="addDisplay('4')">4</button>
-        <button onclick="addDisplay('5')">5</button>
-        <button onclick="addDisplay('6')">6</button>
-        <button onclick="addDisplay('-')" class="operation">-</button>
-        <button onclick="addDisplay('1')">1</button>
-        <button onclick="addDisplay('2')">2</button>
-        <button onclick="addDisplay('3')">3</button>
-        <button onclick="addDisplay('*')" class="operation">x</button>
-        <button onclick="clearDisplay()" class="clear">C</button>
-        <button onclick="addDisplay('0')">0</button>
-        <button onclick="calculate()" class="equal">=</button>
-        <button onclick="addDisplay('/')" class="operation">/</button>
-      </div>
-    </main>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-    <script src="script.js"></script>
-  </body>
+<body>
+  <h1>Calculator</h1>
+
+  <main id="calculator">
+    <input id="display" readonly></input>
+    <div id="keys">
+      <button onclick="addDisplay('7')">7</button>
+      <button onclick="addDisplay('8')">8</button>
+      <button onclick="addDisplay('9')">9</button>
+      <button onclick="addDisplay('+')" class="operation">+</button>
+      <button onclick="addDisplay('4')">4</button>
+      <button onclick="addDisplay('5')">5</button>
+      <button onclick="addDisplay('6')">6</button>
+      <button onclick="addDisplay('-')" class="operation">-</button>
+      <button onclick="addDisplay('1')">1</button>
+      <button onclick="addDisplay('2')">2</button>
+      <button onclick="addDisplay('3')">3</button>
+      <button onclick="addDisplay('*')" class="operation">x</button>
+      <button onclick="clearDisplay()" class="clear">C</button>
+      <button onclick="addDisplay('0')">0</button>
+      <button onclick="calculate()" class="equal">=</button>
+      <button onclick="addDisplay('/')" class="operation">/</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
 </html>
